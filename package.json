@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "server": "npx live-server --no-css-inject ./dist",
+    "tailwindcss": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.1"
+  },
+  "dependencies": {
+    "daisyui": "^2.38.0"
+  }
+}
